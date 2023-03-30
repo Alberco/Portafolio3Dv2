@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Hero/Hero.jsx", "src/app/components/Hero/Computer.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Hero/Hero.tsx", "src/app/components/Hero/Computer.jsx"],
   "exclude": ["node_modules"]
 }
