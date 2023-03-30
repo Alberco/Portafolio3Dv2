@@ -5,7 +5,7 @@ import React from "react";
 function Cargador() {
   return (
     <>
-      <Center>
+      <Center position={[0, 0, 0]}>
         <Html>
           <div id="contenedor">
             <div className="contenedor-loader">
