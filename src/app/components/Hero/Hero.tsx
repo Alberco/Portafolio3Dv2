@@ -5,6 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import Robot from "../Robot";
 import { Center, OrbitControls } from "@react-three/drei";
 import React, { Suspense } from "react";
+import Cargador from "../Cargador/Cargador";
 
 const heebo = Heebo({
   subsets: ["latin"],
@@ -39,7 +40,7 @@ function Hero() {
         </div>
         <div className="basis-1/2 inset-0 h-[300px] lg:h-screen flex justify-center items-center">
           <Canvas>
-            <Suspense fallback={null}>
+            <Suspense fallback={<Cargador />}>
               <Center position={[0, -2, 0]}>
                 <Robot scale={4} />
               </Center>

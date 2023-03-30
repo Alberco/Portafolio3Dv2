@@ -1,4 +1,5 @@
 export { default as About } from './About/About';
+export { default as Cargador } from './Cargador/Cargador';
 export { default as Footer } from './Footer/Footer';
 export { default as Hero } from './Hero/Hero';
 export * from './Icons';
