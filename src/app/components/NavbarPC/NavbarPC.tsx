@@ -4,7 +4,7 @@ import { HomeIcon, UserIcon, ProyectIcon } from "../Icons";
 
 function NavbarPC() {
   return (
-    <nav className="fixed top-0 z-50 inset-x-0 w-full bg-gray-900 border-b-2 border-white/10">
+    <nav className="fixed top-0 z-50 inset-x-0 w-full bg-gray-900 border-b-2 border-white/10" style={{scrollBehavior:"smooth"}} >
       <div className="container mx-auto flex items-center justify-between py-6">
         <ul className="mx-4 text-white flex gap-1 lg:gap-3 font-bold text-md lg:text-xl items-center">
           <li>
@@ -22,19 +22,21 @@ function NavbarPC() {
             <span>
               <HomeIcon />
             </span>
-            Inicio
+            <a href="#inicio">Inicio</a>
           </li>
           <li className="flex justify-center items-center gap-1">
             <span>
               <UserIcon />
             </span>
-            Sobre mi
+            <a href="#user">
+              Sobre mi
+            </a>
           </li>
           <li className="flex justify-center items-center gap-1">
             <span>
               <ProyectIcon />
             </span>
-            Proyectos
+            <a href="#proyectos" rel="noopener noreferrer">Proyectos</a>
           </li>
         </ul>
       </div>

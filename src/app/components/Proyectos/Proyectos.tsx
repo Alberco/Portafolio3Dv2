@@ -23,7 +23,7 @@ import epic from "../../../../public/epic.webp";
 
 function Proyectos() {
   return (
-    <section className="container mx-auto grid grid-cols-1 lg:grid-cols-3 grid-rows-1 lg:grid-rows-2 gap-10 lg:gap-20 py-10 z-50">
+    <section  id="proyectos" className="container mx-auto grid grid-cols-1 lg:grid-cols-3 grid-rows-1 lg:grid-rows-2 gap-10 lg:gap-20 py-10 z-50">
       <article className="bg-white/5 backdrop-blur-sm rounded-md order-1 lg:order-none">
         <header>
           <p className="text-xl lg:text-3xl text-white font-extrabold px-4 pt-6">

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+    html {
+        scroll-behavior: smooth;
+    }
+}
 .fondo {
     background: rgb(8,0,12);
     background: linear-gradient(183deg, rgba(8,0,12,1) 12%, rgba(46,11,37,1) 67%);

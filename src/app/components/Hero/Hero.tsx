@@ -15,6 +15,7 @@ const heebo = Heebo({
 function Hero() {
   return (
     <section
+      id="inicio"
       className={`${heebo.className} relative flex justify-center items-center bg-gray-900 z-40 min-h-screen `}
     >
       <article className="container mx-auto flex gap-10 lg:gap-0 flex-wrap-reverse lg:flex-wrap justify-center items-center z-50 w-full mt-20 lg:mt-20">

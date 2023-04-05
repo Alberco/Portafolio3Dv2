@@ -10,6 +10,7 @@ const local = localFont({
 function About() {
   return (
     <section
+      id="user"
       className={`relative bg-gray-900 z-10 py-20  h-full lg:min-h-screen flex justify-center`}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 container mx-auto place-content-center px-8">
