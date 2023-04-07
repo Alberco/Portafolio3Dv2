@@ -3,7 +3,7 @@ import { GitHub, LinkedIn, WhatsApp } from "../Icons";
 function Footer() {
   return (
     <footer className="bg-gray-900 border-t-2 border-white/10">
-      <div className="container mx-auto grid gap-4 lg:gap-0 grid-cols-1 lg:grid-cols-3 bg-gray-900 place-content-center py-8">
+      <div className="container mx-auto px-10 sm:px-12 lg:px-14  grid gap-4 lg:gap-0 grid-cols-1 lg:grid-cols-3 bg-gray-900 place-content-center py-8">
         <ul className="flex text-white justify-center lg:justify-start items-center gap-2">
           <li>Logo</li>
           <li>Guillermo Alberco.C</li>

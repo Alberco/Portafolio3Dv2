@@ -16,16 +16,17 @@ function Hero() {
   return (
     <section
       id="inicio"
-      className={`${heebo.className} relative flex justify-center items-center bg-gray-900 z-40 min-h-screen `}
+      className={`${heebo.className} bg-gray-900 z-40 mt-10`}
     >
-      <article className="container mx-auto flex gap-10 lg:gap-0 flex-wrap-reverse lg:flex-wrap justify-center items-center z-50 w-full mt-20 lg:mt-20">
-        <div className="basis-full lg:basis-1/2 mx-8 lg:mx-0">
-          <p className="text-white text-xl lg:text-7xl font-extrabold text-start  ">
+      <article 
+        className="mx-auto container px-10 sm:px-12 lg:px-14 grid grid-cols-1 lg:grid-cols-2  z-50 w-full min-h-screen">
+        <div className="place-self-center order-2 lg:order-1 mt-8 2xl:mt-0">
+          <p className="text-white text-xl lg:text-6xl font-extrabold text-start">
             Hola,
             <span className="block">Soy Guillermo Alberco Capistrano,</span>
             Web Developer
           </p>
-          <p className="text-white text-md  lg:text-2xl my-4 ">
+          <p className="text-white text-md lg:text-2xl my-4 ">
             Soy un desarrollador web, me considero una persona con iniciativa a
             superar problemas,ademas me gusta aprender nuevas tecnologias y
             llevar mis proyectos al siguiente nivel.
@@ -39,7 +40,7 @@ function Hero() {
             Descargar CV
           </button>
         </div>
-        <div className="basis-1/2 inset-0 h-[300px] lg:h-screen flex justify-center items-center">
+        <div className="order-1 lg:order-2">
           <Canvas>
             <Suspense fallback={<Cargador />}>
               <Center position={[0, -2, 0]}>

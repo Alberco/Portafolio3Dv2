@@ -11,9 +11,9 @@ function About() {
   return (
     <section
       id="user"
-      className={`relative bg-gray-900 z-10 py-20  h-full lg:min-h-screen flex justify-center`}
+      className={`relative bg-gray-900 z-10 py-20  flex justify-center`}
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2 container mx-auto place-content-center px-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 container px-10 sm:px-12 lg:px-14 mx-auto place-content-center">
         <article className="flex items-center py-10 justify-center backdrop-blur-sm bg-white/5 rounded-sm shadow-2xl">
           <div className="p-1 lg:p-4">
             <p className="text-white text-xl lg:text-4xl ml-8 pl-3 border-l-4 font-extrabold">

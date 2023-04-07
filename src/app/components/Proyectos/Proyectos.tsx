@@ -23,7 +23,7 @@ import epic from "../../../../public/epic.webp";
 
 function Proyectos() {
   return (
-    <section  id="proyectos" className="container mx-auto grid grid-cols-1 lg:grid-cols-3 grid-rows-1 lg:grid-rows-2 gap-10 lg:gap-20 py-10 z-50">
+    <section  id="proyectos" className="container px-10 sm:px-12 lg:px-14 mx-auto grid grid-cols-1 lg:grid-cols-3 grid-rows-1 lg:grid-rows-2 gap-10 lg:gap-20 py-10 z-50">
       <article className="bg-white/5 backdrop-blur-sm rounded-md order-1 lg:order-none">
         <header>
           <p className="text-xl lg:text-3xl text-white font-extrabold px-4 pt-6">
@@ -105,7 +105,7 @@ function Proyectos() {
           </div>
         </footer>
       </article>
-      <article className=" row-auto lg:row-span-2 rounded-lg backdrop-blur-sm gap-4 px-8 lg:px-14 py-4 pb-8 bg-white/5 lg:order-none order-4">
+      <article className=" row-auto lg:row-span-2 rounded-lg backdrop-blur-sm gap-4 px-2 sm:px-4 lg:px-10 py-4 pb-8 bg-white/5 lg:order-none order-4">
         <p className="text-white text-md font-medium lg:text-xl my-3">
           Lenguajes de programacion y Framework
         </p>
