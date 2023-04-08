@@ -16,7 +16,7 @@ function Hero() {
   return (
     <section
       id="inicio"
-      className={`${heebo.className} bg-gray-900 z-40 mt-10`}
+      className=" bg-gray-900 z-40 mt-10"
     >
       <article 
         className="mx-auto container px-10 sm:px-12 lg:px-14 grid grid-cols-1 lg:grid-cols-2  z-50 w-full min-h-screen">
