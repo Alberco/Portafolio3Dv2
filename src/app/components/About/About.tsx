@@ -19,7 +19,7 @@ function About() {
             <p className="text-white text-xl lg:text-4xl ml-8 pl-3 border-l-4 font-extrabold">
               Sobre mi
             </p>
-            <p className="text-white text-md lg:text-2xl mt-4 px-8">
+            <p className="text-white text-md sm:text-2xl mt-4 px-8">
               Soy una persona apasionada por la tecnología y el mundo digital.
               Disfruto en programar y crear soluciones innovadoras a través del
               código.

@@ -20,7 +20,7 @@ import {
 import nft from "../../../../public/nft.webp";
 import valorant from "../../../../public/valorant.webp";
 import epic from "../../../../public/epic.webp";
-
+import adidas from "../../../../public/adidas.webp";
 function Proyectos() {
   return (
     <section  id="proyectos" className="container px-10 sm:px-12 lg:px-14 mx-auto grid grid-cols-1 lg:grid-cols-3 grid-rows-1 lg:grid-rows-2 gap-10 lg:gap-20 py-10 z-50">
@@ -105,11 +105,11 @@ function Proyectos() {
           </div>
         </footer>
       </article>
-      <article className=" row-auto lg:row-span-2 rounded-lg backdrop-blur-sm gap-4 px-2 sm:px-4 lg:px-10 py-4 pb-8 bg-white/5 lg:order-none order-4">
+      <article className=" row-auto lg:row-span-2 rounded-lg backdrop-blur-sm gap-4 px-8 lg:px-10 py-4 pb-8 bg-white/5 lg:order-none order-4">
         <p className="text-white text-md font-medium lg:text-xl my-3">
           Lenguajes de programacion y Framework
         </p>
-        <div className="flex flex-col gap-4 h-auto">
+        <div className="flex flex-col  gap-4 h-auto">
           <article className="flex items-center gap-3 shadow-xl py-3 px-2 rounded-lg  backdrop-blur-sm  bg-blue-200/10 group">
             <span className="text-white">1</span>
             <span className="w-6 lg:w-8 fill-white group-hover:fill-yellow-300 duration-300">
@@ -200,12 +200,11 @@ function Proyectos() {
       <article className="bg-white/5 backdrop-blur-sm py-8 col-auto lg:col-span-2 grid grid-cols-1 lg:grid-cols-2 rounded-md px-4  lg:order-none order-3">
         <header className="flex flex-col justify-center order-2 lg:order-none ">
           <p className="text-xl lg:text-3xl text-white font-extrabold px-4 ">
-            Valorant web
+            Adidas Web
           </p>
           <p className="text-md lg:text-xl text-white font-normal px-4 pt-4">
-            Es una replica de la store de epic game hecho con tailwind css y
-            javascript.Es una replica de la store de epic game hecho con
-            tailwind css y javascript.
+            Es una replica de la store de adidas hecho con tailwind css y
+            javascript.
           </p>
           <div className="flex gap-2 mx-6 my-4 fill-white justify-start items-center">
             <span className="w-8 h-auto">
@@ -237,7 +236,7 @@ function Proyectos() {
           </div>
         </header>
         <div className="p-4 h-auto flex justify-center items-center order-1 lg:order-none">
-          <Image src={epic} alt="nft" className="rounded-lg" />
+          <Image src={adidas} alt="nft" className="rounded-lg" />
         </div>
       </article>
     </section>
