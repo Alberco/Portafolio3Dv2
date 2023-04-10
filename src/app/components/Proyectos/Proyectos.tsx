@@ -49,25 +49,31 @@ function Proyectos() {
             </span>
           </div>
           <div className="flex items-center justify-center gap-4 py-8">
-            <button
+            <a
+            href="https://nft-web-six.vercel.app/"
+            target="_blank"
+            rel="nft"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300"
             >
               Demo
-            </button>
-            <button
+            </a>
+            <a
+              href="https://github.com/Alberco/NFT-WEB"
+              target="_blank"
+              rel="nft"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300"
             >
               Github
-            </button>
+            </a>
           </div>
         </footer>
       </article>
       <article className="bg-white/5 backdrop-blur-sm rounded-md lg:order-none order-2">
         <header>
           <p className="text-xl lg:text-3xl text-white font-extrabold px-4 pt-6">
-            Valorant web
+            Epic web
           </p>
         </header>
         <div className="p-4">
@@ -89,19 +95,25 @@ function Proyectos() {
             </span>
           </div>
           <div className="flex items-center justify-center gap-4 py-8">
-            <button
+            <a
+            href="https://epic-one.vercel.app/"
+            target="_blank"
+            rel="epic"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300
                     "
             >
               Demo
-            </button>
-            <button
+            </a>
+            <a
+            href="https://github.com/Alberco/EpicGameClon"
+            target="_blank"
+            rel="epic"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300"
             >
               Github
-            </button>
+            </a>
           </div>
         </footer>
       </article>
@@ -221,18 +233,24 @@ function Proyectos() {
             </span>
           </div>
           <div className="flex items-center justify-center gap-4 my-2">
-            <button
+            <a
+              href="https://adidas-web.vercel.app/"
+              target="_blank"
+              rel="adidas"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300"
             >
               Demo
-            </button>
-            <button
+            </a>
+            <a
+              href="https://github.com/Alberco/AdidasWeb"
+              target="_blank"
+              rel="adidas"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300"
             >
               Github
-            </button>
+            </a>
           </div>
         </header>
         <div className="p-4 h-auto flex justify-center items-center order-1 lg:order-none">
