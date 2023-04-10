@@ -77,7 +77,7 @@ function Proyectos() {
           </p>
         </header>
         <div className="p-4">
-          <Image src={valorant} alt="nft" className="rounded-lg" />
+          <Image src={epic} alt="nft" className="rounded-lg" />
         </div>
         <footer className="gap-4 fill-white">
           <div className="flex gap-2 mx-6 my-2">
