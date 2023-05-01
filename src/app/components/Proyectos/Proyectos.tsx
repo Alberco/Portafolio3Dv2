@@ -17,21 +17,24 @@ import {
   Vercel,
   Netlify,
 } from "../Icons";
-import nft from "../../../../public/nft.webp";
+import chilis from "../../../../public/chilis2.png";
 import valorant from "../../../../public/valorant.webp";
 import epic from "../../../../public/epic.webp";
 import adidas from "../../../../public/adidas.webp";
 function Proyectos() {
   return (
-    <section  id="proyectos" className="container px-10 sm:px-12 lg:px-14 mx-auto grid grid-cols-1 lg:grid-cols-3 grid-rows-1 lg:grid-rows-2 gap-10 lg:gap-20 py-10 z-50">
+    <section
+      id="proyectos"
+      className="container px-10 sm:px-12 lg:px-14 mx-auto grid grid-cols-1 lg:grid-cols-3 grid-rows-1 lg:grid-rows-2 gap-10 lg:gap-20 py-10 z-50"
+    >
       <article className="bg-white/5 backdrop-blur-sm rounded-md order-1 lg:order-none">
         <header>
           <p className="text-xl lg:text-3xl text-white font-extrabold px-4 pt-6">
-            NFT web
+            Valorant web
           </p>
         </header>
         <div className="p-4">
-          <Image src={nft} alt="nft" className="rounded-lg" />
+          <Image src={valorant} alt="nft" className="rounded-lg" />
         </div>
         <footer className="gap-4 fill-white">
           <div className="flex gap-2 mx-6 my-2">
@@ -39,10 +42,10 @@ function Proyectos() {
               <Reactjs />
             </span>
             <span className="w-6 lg:w-8 h-auto">
-              <Tailwind />
+              <StyleComponent />
             </span>
             <span className="w-6 lg:w-8 h-auto">
-              <Nextjs />
+              <Typescript />
             </span>
             <span className="w-6 lg:w-8 h-auto">
               <Vercel />
@@ -50,9 +53,9 @@ function Proyectos() {
           </div>
           <div className="flex items-center justify-center gap-4 py-8">
             <a
-            href="https://nft-web-six.vercel.app/"
-            target="_blank"
-            rel="nft"
+              href="https://valorant-web-bice.vercel.app/agents"
+              target="_blank"
+              rel="nft"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300"
             >
@@ -73,11 +76,11 @@ function Proyectos() {
       <article className="bg-white/5 backdrop-blur-sm rounded-md lg:order-none order-2">
         <header>
           <p className="text-xl lg:text-3xl text-white font-extrabold px-4 pt-6">
-            Epic web
+            Chilis Web
           </p>
         </header>
         <div className="p-4">
-          <Image src={epic} alt="nft" className="rounded-lg" />
+          <Image src={chilis} alt="nft" className="rounded-lg" />
         </div>
         <footer className="gap-4 fill-white">
           <div className="flex gap-2 mx-6 my-2">
@@ -85,20 +88,20 @@ function Proyectos() {
               <Reactjs />
             </span>
             <span className="w-6 lg:w-8 h-auto">
-              <StyleComponent />
+              <Nextjs />
             </span>
             <span className="w-6 lg:w-8 h-auto">
               <Typescript />
             </span>
             <span className="w-6 lg:w-8 h-auto">
-              <Netlify />
+              <Vercel />
             </span>
           </div>
           <div className="flex items-center justify-center gap-4 py-8">
             <a
-            href="https://epic-one.vercel.app/"
-            target="_blank"
-            rel="epic"
+              href="https://epic-one.vercel.app/"
+              target="_blank"
+              rel="epic"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300
                     "
@@ -106,9 +109,9 @@ function Proyectos() {
               Demo
             </a>
             <a
-            href="https://github.com/Alberco/EpicGameClon"
-            target="_blank"
-            rel="epic"
+              href="https://github.com/Alberco/EpicGameClon"
+              target="_blank"
+              rel="epic"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
                     hover:bg-gray-900/40 hover:border-2 hover:border-white/80  transition-all duration-300"
             >
@@ -223,13 +226,10 @@ function Proyectos() {
               <Reactjs />
             </span>
             <span className="w-6 lg:w-8 h-auto">
-              <StyleComponent />
+              <Tailwind />
             </span>
             <span className="w-6 lg:w-8 h-auto">
               <Typescript />
-            </span>
-            <span className="w-6 lg:w-8 h-auto">
-              <Netlify />
             </span>
           </div>
           <div className="flex items-center justify-center gap-4 my-2">
