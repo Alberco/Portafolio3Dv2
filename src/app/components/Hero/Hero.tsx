@@ -6,6 +6,7 @@ import Robot from "../Robot";
 import { Center, OrbitControls } from "@react-three/drei";
 import React, { Suspense } from "react";
 import Cargador from "../Cargador/Cargador";
+import Link from "next/link";
 
 const heebo = Heebo({
   subsets: ["latin"],
@@ -61,11 +62,14 @@ function Hero() {
               </li>
             </ul>
           </div>
-          <a href="/" download="cv">
-            <button className="border-2 border-white/20 text-xl py-2 px-4 text-white flex justify-center items-center hover:bg-gray-800/80 hover:text-white transition-all duration-300">
-              Descargar CV
-            </button>
-          </a>
+          <Link
+            href="/CVGUILLERMOALBERCO.pdf"
+            target="_blank"
+            rel="adidas"
+            className="border-2 w-1/2 border-white/20 text-xl py-2 px-4 text-white flex justify-center items-center hover:bg-gray-800/80 hover:text-white transition-all duration-300"
+          >
+            Descargar CV
+          </Link>
         </div>
         <div className="order-1 lg:order-2">
           <Canvas>
