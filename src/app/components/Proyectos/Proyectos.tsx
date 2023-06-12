@@ -19,7 +19,6 @@ import {
 } from "../Icons";
 import chilis from "../../../../public/chilis2.png";
 import valorant from "../../../../public/valorant.webp";
-import epic from "../../../../public/epic.webp";
 import adidas from "../../../../public/adidas.webp";
 function Proyectos() {
   return (
@@ -62,7 +61,7 @@ function Proyectos() {
               Demo
             </a>
             <a
-              href="https://github.com/Alberco/NFT-WEB"
+              href="https://github.com/Alberco/ValorantWebV2"
               target="_blank"
               rel="nft"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
@@ -99,7 +98,7 @@ function Proyectos() {
           </div>
           <div className="flex items-center justify-center gap-4 py-8">
             <a
-              href="https://epic-one.vercel.app/"
+              href="https://chilisweb.vercel.app/"
               target="_blank"
               rel="epic"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
@@ -109,7 +108,7 @@ function Proyectos() {
               Demo
             </a>
             <a
-              href="https://github.com/Alberco/EpicGameClon"
+              href="https://github.com/Alberco/ChilisWeb"
               target="_blank"
               rel="epic"
               className="p-2 bg-blue-400/10 text-white border-2 border-transparent font-bold px-6 rounded-sm 
